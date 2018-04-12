@@ -60,7 +60,7 @@ function finishUp() {
     );
   }
 
-  const az = spawn("az", ["webapp", "new", "-n", package.name]);
+  const az = spawn("az", ["webapp", "up", "-n", package.name]);
 
   az.stderr.on("data", data => {
     const string = data.toString();

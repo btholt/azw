@@ -1,11 +1,11 @@
 # azw
 
-This is a proof of concept and only covers the happy path. This wraps the `az webapp new` command. This has no useful error handling.
+This is a proof of concept and only covers the happy path. This wraps the `az webapp up` command. This has no useful error handling.
 
 ## Up and Running.
 
 1. Install [az](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
-1. Install [the webapp extension](https://blogs.msdn.microsoft.com/appserviceteam/2018/02/06/az-webapp-new/)
+1. Install [the webapp extension](https://aka.ms/new-cli)
 1. Log in to az by running `az login`
 1. Install azw by running `npm install --global azw`
 
